@@ -1,0 +1,30 @@
+<?php
+//include("connection_done.php");
+
+$servername="localhost";
+$usename="souvik";
+$password="123456";
+$dbname="car_project";
+
+$username = $_POST['username'];
+$email=$_POST['email'];
+$mobnumber=$_POST['mobnumber'];
+$pass=md5($_POST['pass']);
+
+$conn=mysqli_connect($servername,$usename,$password,$dbname);
+
+$sql="INSERT into user (username,email,mobnumber,password) VALUES('$username','$email','$mobnumber','$pass')";
+if(mysqli_query($conn,$sql))
+	{
+		echo "<br>";
+		echo "Hi ".$username." Your Value Insert Successfuly.......<br><br>Thank You For Registration In Our Database.";
+	}
+else{
+	echo "<br>";
+	echo "<br>";
+	echo "Error: ".$sql."<br>".mysqli_error($conn);
+	}
+
+mysql_close($check);
+
+?>

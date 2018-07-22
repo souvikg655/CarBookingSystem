@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <title>Home</title>
+   <link rel="stylesheet" href="CSS/home.css">
+   <link rel="stylesheet" type="text/css" href="CSS/slider.css">
+   <style type="text/css"></style>
+   <script type="text/javascript" src="CSS/test.js"></script>
+</head>
+
+<body bgcolor="gray">
+   <div id='cssmenu'>
+   <ul>
+      <li><img title="Web Logo" style="cursor: pointer;" src="Car_Pic/honda_BRV.jpg" style="height: 50px" width="100px"></a></li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+      <li class='active'><a href='home.php'> Home </a></li>
+      <li><a href='car_book.php'>Book A Car</a></li>
+      <li><a href='about_us.php'>About Us</a></li>
+      <li><a href='contact_us.php'>Contact Us</a></li>
+      <li><a href='login.php'>Login</a></li>
+   </ul>
+   </div>
+   <br>
+
+<div id="total_pic">
+   <div class="slider" id="main-slider">
+      <div class="slider-wrapper">
+         <img src="Car_Pic/Honda_City.jpg" alt="Have a problem" class="slide" />
+         <img src="Car_Pic/Suzuki-Vitara-Brezza.jpg" alt="have A problem" class="slide" />
+         <img src="Car_Pic/Ciaz.jpg" alt="Have a problem" class="slide" />
+         <img src="Car_Pic/i10.jpg" alt="Have a problem" class="slide" />
+      </div>
+   </div>
+</div>
+   
+</body>
+<html>

@@ -1,0 +1,132 @@
+.contact{
+	position: absolute;
+	color: white;
+	left: 600px;
+}
+
+.print_dot{
+	position: absolute;
+	color: white;
+	left: 200px;
+	top: 110px;
+}
+
+.help{
+	position: absolute;
+	color: white;
+	left: 550px;
+	top: 130px;
+}
+
+.love{
+	position: absolute;
+	top: 150px;
+	left: 620px;
+}
+
+.travel{
+	position: absolute;
+	color: black;
+	left: 520px;
+	top: 170px;
+}
+
+.namebox{
+	position: absolute;
+	height: 30px;
+	width: 350px;
+	top: 250px;
+	left: 200px;
+	border-radius: 8px;
+}
+
+.emailbox{
+	position: absolute;
+	height: 30px;
+	width: 350px;
+	top: 300px;
+	left: 200px;
+	border-radius: 8px;
+}
+
+.messagetext{
+	position: absolute;
+	height: 100px;
+	width: 350px;
+	top: 350px;
+	left: 200px;
+	border-radius: 8px;
+}
+
+.blankbutton{
+	position: absolute;
+	height: 45px;
+	width: 20px;
+	top: 460px;
+	left: 365px;
+	background-color: white;
+}
+
+.submit{
+	position: absolute;
+	height: 25px;
+	width: 230px;
+	top: 510px;
+	left: 260px;
+	background-color: gray;
+	color: white;
+	border-radius: 8px;
+	border-color: white;
+	border-style: solid;
+	cursor: pointer;
+}
+.submit:hover{
+	background-color: green;
+}
+
+
+.location_logo{
+	position: absolute;
+	top: 250px;
+	left: 800px;
+}
+.happyjourney{
+	position: absolute;
+	top: 230px;
+	left: 930px;
+}
+.location{
+	position: absolute;
+	top: 255px;
+	left: 870px;
+}
+
+.phone_logo{
+	position: absolute;
+	top: 330px;
+	left: 800px;
+}
+.mob_no{
+	position: absolute;
+	top: 315px;
+	left: 930px; 
+}
+
+.email_logo{
+	position: absolute;
+	height: 60px;
+	width: 40px;
+	top: 390px;
+	left: 800px;
+}
+.email_id{
+	position: absolute;
+	top: 390px;
+	left: 890px;
+}
+
+.draw_line{
+	position: absolute;
+	top: 440px;
+	left: 720px;
+}
